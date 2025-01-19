@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('./360_F_297892888_fiCFYX2oB9GvCotLpOBhc5t7RVgNHozm.jpg') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.5; 
+            z-index: -1; 
+        }
+
+        
+        .content {
+            background-color: rgba(255, 255, 255, 0.8); 
+            color: #000; 
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+            text-align: left;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>B.Tech, KL University, Tadepalli, Guntur
+                    <ul> Year: 2023-2027 </ul>
+                    <ul>CGPA: 9.43</ul>
+                </li>
+                <li>Intermediate (BIPC), Sri Chaitanya Junior College, Guntur
+                    <ul>Year: 2020-2022</ul>
+                    <ul>Grade: 875/1000</ul>
+                </li>
+                <li>10th, Prashanth English Medium High School, Tirupati
+                    <ul>Year: 2019-2020</ul>
+                    <ul>Marks: 600/600</ul>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
