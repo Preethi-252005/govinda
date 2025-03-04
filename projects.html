@@ -4,102 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects and Awards</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        /* Background image with reduced opacity */
-        body::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('./IMG-20250119-WA0024.jpg') no-repeat center center fixed;
-            background-size: cover;
-            opacity: 0.5; /* Makes the image opaque */
-            z-index: -1; /* Places the background behind the content */
-        }
-
-        /* Content wrapper with highlighted background */
-        .content {
-            background-color: rgba(255, 255, 255, 0.8); /* Light highlight effect */
-            color: #000; /* Black text for better contrast */
-            padding: 20px;
-            border-radius: 10px;
-            width: 90%;
-            max-width: 800px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow to emphasize the content */
-            text-align: left;
-        }
-
-        h2 {
-            text-align: center;
-            margin-top: 0;
-        }
-
-        ul, ol {
-            margin: 10px 0;
-            padding-left: 20px;
-        }
-
-        p {
-            margin: 10px 0;
-        }
-
-        h4 {
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="projects.css">
 </head>
 <body>
-    <div class="content">
-        <section id="projects">
-            <h2>Projects</h2>
+    <header>
+        <nav>
             <ul>
-                <li>Smart Home Applications
-                    <ul>
-                        <li>Smart Clothes Drying System</li>
-                        <li>Smart Irrigation</li>
-                        <li>Smart Streetlight</li>
-                        <li>Smart Water Tank</li>
-                    </ul>
-                </li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="conferences.html">Conferences</a></li>
             </ul>
-            <h4>Information about Project:</h4>
-            <p>In my first year, I collaborated with my team on a project titled "Smart Home Automation" that utilised Internet of Things (IoT) components to develop a comprehensive solution integrating multiple applications. The project included:</p>
-            <ol>
-                <li>Smart Street Lighting: Operated using a PIR sensor for energy efficiency.</li>
-                <li>Smart Irrigation System: Optimised water usage in agriculture.</li>
-                <li>Smart Water Tank: Monitored and controlled water levels using an ultrasonic sensor.</li>
-                <li>Smart Clothes Drying System: Used a rain sensor to protect clothes from rain.</li>
-            </ol>
-            <p>We successfully completed the project with exceptional results, earning appreciation from our faculty, course coordinators, and KL officials. This accomplishment, early in my academic journey, was a proud moment that reinforced my passion for innovation and technology.</p>
-        </section>
+        </nav>
+    </header>
 
-        <section id="awards">
-            <h2>Awards</h2>
-            <p>The smart home project mentioned above was exhibited at the IoT Expo and won the 3rd prize for its innovative idea and the team's hard work.</p>
-            <ul>
-                <li>IoT Expo 2023, KLU Vijayawada
-                    <ul>
-                        <li>Award for Innovative Project</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
+    <div class="container">
+        <!-- Left Side: Text Content -->
+        <div class="content">
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>Smart Home Applications
+                        <ul>
+                            <li>Smart Clothes Drying System</li>
+                            <li>Smart Irrigation</li>
+                            <li>Smart Streetlight</li>
+                            <li>Smart Water Tank</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h3>Information about Project:</h3>
+                <p>In my first year, I collaborated with my team on a project titled "Smart Home Automation" that utilised IoT components to develop a comprehensive solution integrating multiple applications. The project included:</p>
+                <ol>
+                    <li>Smart Street Lighting: Operated using a PIR sensor for energy efficiency.</li>
+                    <li>Smart Irrigation System: Optimised water usage in agriculture.</li>
+                    <li>Smart Water Tank: Monitored and controlled water levels using an ultrasonic sensor.</li>
+                    <li>Smart Clothes Drying System: Used a rain sensor to protect clothes from rain.</li>
+                </ol>
+                <p>We successfully completed the project with exceptional results, earning appreciation from our faculty, course coordinators, and KL officials and won the 3rd prize for its innovative idea and the team's hard work.</p>
+                    
+            </section>
+        </div>
+
+        <!-- Right Side: Images -->
+        <div class="image-container">
+            <img src="./1a.jpg" alt="Smart Home Project">
+            <img src="./2a.jpg" alt="Award Ceremony">
+            <img src="./project.jpg" alt="Project Presentation">
+            <img src="./iot (2).jpg" alt="Team Working on Project">
+        </div>
     </div>
 </body>
 </html>
